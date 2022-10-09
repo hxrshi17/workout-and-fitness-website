@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter';
+}
+
+.background{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(images/back1.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.heading{  
+    padding: 4% 18%;
+    text-align: center;
+    color: #fff;
+}
+
+img{
+    padding: 4% 5%;
+    width: 150px;
+}
+.heading h1{
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.heading p{
+    font-size: 26px;
+    font-weight: 200;
+}
+
+.details{
+    padding: 1% 33%;
+    color: #fff;
+    font-size: 22px;
+}
+
+input{
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 100% solid #fff;
+    appearance: none;
+    background-color: rgba(0,0,0,0);
+    color: #fff;
+    outline: none;
+    width: 100%;
+    font-size: 22px;
+    padding: 2% 0%;
+}
+
+.next{
+    padding: 2% 46%;
+}
+
+.button{
+    border: 1px solid #fff;
+    background-color: #fff;
+    color: #000;
+    padding: 20px 40px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: inherit;
+    font-size: 28px;
+    margin: 0px 4px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.button:hover{
+    border-color:#000;
+    background-color: #000;
+    color:#fff;
+}

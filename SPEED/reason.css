@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter';
+}
+
+.background{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(images/back1.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.heading{  
+    padding: 4% 18%;
+    text-align: center;
+    color: #fff;
+}
+
+img{
+    padding: 4% 5%;
+    width: 150px;
+}
+.heading h1{
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.heading p{
+    font-size: 26px;
+    font-weight: 200;
+}
+
+.hidebox{
+    display: none;
+}
+
+.choice{
+    text-align: center;
+}
+.grid1{
+    padding: 1% 12.25%;
+}
+.grid2{
+    padding: 2% 43.1%;
+}
+.grid1, .grid2{
+    display:grid;
+    grid-template-columns: repeat(5, minmax(max-content, 1fr));
+    grid-gap: 120px;
+}
+
+.label{
+    text-align: center;
+    padding: 50px 50px;
+    margin: 10px;
+    border: 1px solid #fff;
+    border-radius: 15px;
+    background-color: #fff;
+    color: #000;
+    font-weight: 700;
+    font-size: 28px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+input[type=radio]:checked + .label{
+    background-color: #000;
+    color: #fff;
+    border-color: #000;
+}
+
+.next{
+    padding: 2% 45.3%;
+}
+.button{
+    border: 1px solid #fff;
+    background-color: #fff;
+    color: #000;
+    padding: 20px 40px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: inherit;
+    font-size: 28px;
+    margin: 4px 4px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.button:hover{
+    border-color:#000;
+    background-color: #000;
+    color:#fff;
+}
